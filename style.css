@@ -53,15 +53,13 @@
 }
 
 
+
+
 * {
     margin: 0;
     padding: 0;
     border: 0;
     box-sizing: border-box;
-}
-
-a{
-text-decoration:none;
 }
 
 .wrapper {
@@ -491,6 +489,17 @@ span{
     }
 }
 @media (max-width:768px) {
+    .mediumNews img, .bottomNews img{
+        width: 50%;
+        height: 50%;
+    }
+    .NewsPaper_text{
+        margin-top: 19px;
+        margin-left: 15px;
+    }
+    .fotka2{
+        margin-left: 38px;
+    }
     .Socmedium{
         display: flex;
         flex-direction: column;
@@ -512,4 +521,5 @@ span{
     .Vk,.Inst{
         margin-bottom: 30px;
     }
+    
 }
