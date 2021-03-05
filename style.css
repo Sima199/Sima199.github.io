@@ -41,6 +41,16 @@
 	font-weight: bold;
 	font-style: normal;
 }
+@font-face {
+	font-family: 'Gotham Pro Light';
+	src: url('GothamPro-Light.eot');
+	src: local('Gotham Pro Light'), local('GothamPro-Light'),
+		url('fonts/GothamPro-Light.eot?#iefix') format('embedded-opentype'),
+		url('fonts/GothamPro-Light.woff') format('woff'),
+		url('fonts/GothamPro-Light.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
 
 
 * {
@@ -113,6 +123,7 @@ body {
 .header_link{
     font-family: "Gilroy";
     color: white;
+    text-decoration: none;
     font-size: 21px;
     line-height: 24px;
     width: 300;
@@ -124,7 +135,6 @@ span{
 .header a{
     text-decoration: none;
 }
-
 
 /* NavCards */
 
@@ -193,7 +203,9 @@ span{
 
     
 }
-
+.text1 a, .besttext a{
+    text-decoration: none;
+}
 .text1{
     padding: 24px 0 0 34px;
     flex-direction: column;
@@ -245,7 +257,7 @@ span{
 /*  Content     */
 .content{
     margin-top: 90px;
-    max-height: 1219px;
+    max-height: 1000px;
 }
 .top{
     display: flex;
@@ -367,6 +379,7 @@ span{
 
 .besttextSoc{
     margin-top: 18px;
+    margin-bottom: 36px;
     font-family: 'Gotham Pro';
     font-style: normal;
     font-weight: bold;
@@ -391,6 +404,40 @@ span{
     margin-top: 90px;
 }*/
 
+/*  NewsPage    */
+
+.NewsPaper{
+    padding-top: 133px;
+    min-height: 2449px;
+}
+
+.topNews{
+    font-family: 'Golos';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 47px;
+    line-height: 56px;
+    color: #7C6AEA;
+}
+.mediumNews{
+    display: flex;
+}
+.bottomNews{
+    display: flex;
+}
+.fotka2{
+    margin-left: 76px;
+}
+.NewsPaper_text{
+    margin-top: 38px;
+    margin-left: 30px;
+    font-family: 'Gotham Pro Light';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 100%;
+    color: #FFFFFF;
+}
 
 @media (max-width:1680px){
     .bottom_tab a {
@@ -440,6 +487,10 @@ span{
     }
 }
 @media (max-width:768px) {
+    .Socmedium{
+        display: flex;
+        flex-direction: column;
+    }
     .containerNews {
         margin: 0 189px 0 186px;
     }
@@ -453,5 +504,8 @@ span{
     }
     .besttextSoc{
         margin-top: 8px;
+    }
+    .Vk,.Inst{
+        margin-bottom: 30px;
     }
 }
