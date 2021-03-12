@@ -89,7 +89,7 @@ body {
 /*  Header    */
 
 .header{
-    box-shadow: 0px 4px 28px 16px #000000 25%;  
+    box-shadow: 0px 4px 28px 16px #000000 25%;
     position: fixed;
     width: 100%;
     height: 90px;
@@ -131,7 +131,7 @@ body {
     width: 300;
 }
 span{
-    margin-left: 50px; 
+    margin-left: 50px;
 }
 
 .header a{
@@ -177,7 +177,7 @@ span{
 /*  NewsPage    */
 
 .containerNews{
-    
+
 }
 
 .NewsPage{
@@ -203,7 +203,7 @@ span{
 }
 .fotka1 img{
 
-    
+
 }
 .text1 a, .besttext a{
     text-decoration: none;
@@ -218,7 +218,7 @@ span{
     font-weight: bold;
     font-size: 30px;
     line-height: 36px;
-    color: #7C6AEA; 
+    color: #7C6AEA;
 }
 
 .besttext{
@@ -401,7 +401,7 @@ span{
     align-items: center;
 }
 
-/*  Zvonki  
+/*  Zvonki
 .zvonki{
     margin-top: 90px;
 }*/
@@ -410,7 +410,9 @@ span{
 
 .NewsPaper{
     padding-top: 133px;
-    min-height: 2449px;
+    min-height: 2249px;
+		display: flex;
+		flex-direction: column;
 }
 
 .topNews{
@@ -440,7 +442,19 @@ span{
     line-height: 100%;
     color: #FFFFFF;
 }
+/*	BottomContent	*/
 
+.line{
+	margin: 104px 0 40px;
+}
+.CardsWhere{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.CardWhere{
+	margin-bottom: 60px;
+}
 @media (max-width:1680px){
     .bottom_tab a {
         margin: 0 0 0 44px;
@@ -458,7 +472,7 @@ span{
     .fotka1 img{
         min-width: 0%;
         min-height: 0%;
-        
+
     }
     .NavCards_body img{
         width: 95%;
@@ -483,7 +497,7 @@ span{
     .text1{
         text-align: center;
     }
-    
+
     .bottom_tab a {
         margin: 0px 0 0 311px;
     }
@@ -521,5 +535,5 @@ span{
     .Vk,.Inst{
         margin-bottom: 30px;
     }
-    
+
 }
