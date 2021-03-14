@@ -156,7 +156,7 @@ span{
 
 .NavCards{
     margin-top: 90px;
-    min-height: 370px;
+    margin-bottom: 70px
 }
 
 .NavCard1{
@@ -201,7 +201,21 @@ span{
     border: 1px solid rgba(255, 255, 255, 0.14);
     box-shadow: 0px 0px 18px rgba(0, 0, 0, 0.25);
 }
-.text1 a, .besttext a{
+.NewsCard2{
+		display: flex;
+		min-height: 450px;
+		max-width: 1200px;
+		max-height: 450px;
+		background:#222222;
+    border: 1px solid rgba(255, 255, 255, 0.14);
+    box-shadow: 0px 0px 18px rgba(0, 0, 0, 0.25);
+}
+
+.NewsCard1, .NewsCard2{
+	margin: 0 0 15px 0;
+}
+
+.text1 a, .besttext a, .text2 a{
     text-decoration: none;
 }
 .text1{
@@ -209,6 +223,20 @@ span{
     flex-direction: column;
 }
 .text1 h1{
+    font-family: 'Golos';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 36px;
+    color: #7C6AEA;
+}
+
+.text2{
+	padding: 24px 0 0 34px;
+	flex-direction: column;
+}
+
+.text2 h1{
     font-family: 'Golos';
     font-style: normal;
     font-weight: bold;
@@ -231,7 +259,11 @@ span{
     display: flex;
     margin: 82px 0 0 0px;
 }
-.bottom_tab p{
+.bottom_tab2{
+	display: flex;
+	margin: 179px 0 0 0;
+}
+.bottom_tab p, .bottom_tab2 p{
     margin: 0 0 0 0;
     font-family: 'Source Serif Pro';
     font-style: normal;
@@ -241,7 +273,7 @@ span{
     color: #6D6D6D;
 }
 
-.bottom_tab a{
+.bottom_tab a, .bottom_tab2 a{
     margin: 0 0 0 297px;
     text-decoration: none;
     font-family: 'Golos';
@@ -441,7 +473,7 @@ span{
 	margin-bottom: 60px;
 }
 @media (max-width:1680px){
-    .bottom_tab a {
+    /*.bottom_tab a {
         margin: 0 0 0 44px;
     }
     .bottom_tab {
@@ -451,7 +483,7 @@ span{
     .text1 {
         padding: 24px 0 0 17px;
         flex-direction: column;
-    }
+    }*/
 }
 @media (max-width: 1428px){
     .fotka1 img{
@@ -460,10 +492,10 @@ span{
 
     }
     .NavCards_body img{
-        width: 95%;
-        height: 95%;
+        width: 98%;
+        height: 98%;
     }
-    .NavCard3, .NavCard4 {
+    /*.NavCard3, .NavCard4 {
         margin: 0;
     }
     .NavCard1{
@@ -475,6 +507,12 @@ span{
         max-width: 600px;
         max-height: 700px;
     }
+		.NewsCard2{
+        display: block;
+        min-height: 900px;
+        max-width: 600px;
+        max-height: 900px;
+    }
     .fotka1{
         max-width: 599px;
         max-height: 350px;
@@ -485,7 +523,7 @@ span{
 
     .bottom_tab a {
         margin: 0px 0 0 311px;
-    }
+    }*/
 }
 @media (max-width:768px) {
     .mediumNews img, .bottomNews img{
