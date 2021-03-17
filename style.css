@@ -99,6 +99,10 @@ body {
     z-index: 50;
 }
 
+.header_list a:hover{
+	text-decoration: underline;
+}
+
 .header_body{
     position: relative;
     display: flex;
@@ -175,27 +179,17 @@ span{
 }
 
 /*  NewsPage    */
-
-.containerNews{
-
-}
-
 .NewsPage{
     min-height: 600px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.NewsPage_body{
-
-}
-.MainNews{
-
-}
 .NewsCard1{
     display: flex;
     min-height: 350px;
     max-width: 1200px;
+		min-width: 1200px;
     max-height: 350px;
     background:#222222;
     border: 1px solid rgba(255, 255, 255, 0.14);
@@ -219,8 +213,8 @@ span{
     text-decoration: none;
 }
 .text1{
-    padding: 24px 0 0 34px;
-    flex-direction: column;
+  padding: 24px 14px 24px 14px;
+  flex-direction: column;
 }
 .text1 h1{
     font-family: 'Golos';
@@ -232,7 +226,7 @@ span{
 }
 
 .text2{
-	padding: 24px 0 0 34px;
+	padding: 24px 14px 24px 14px;
 	flex-direction: column;
 }
 
@@ -256,14 +250,26 @@ span{
 }
 
 .bottom_tab{
-    display: flex;
-    margin: 82px 0 0 0px;
+  display: flex;
+  padding: 143px 0 0 0px;
+	justify-content: space-between;
+}
+.bottom_tab3{
+  display: flex;
+  padding: 64px 0 0 0px;
+	justify-content: space-between;
+}
+.bottom_tab4{
+  display: flex;
+  padding: 220px 0 0 0px;
+	justify-content: space-between;
 }
 .bottom_tab2{
 	display: flex;
-	margin: 179px 0 0 0;
+	padding: 248px 0 0 0;
+	justify-content: space-between;
 }
-.bottom_tab p, .bottom_tab2 p{
+.bottom_tab p, .bottom_tab2 p, .bottom_tab3 p, .bottom_tab4 p{
     margin: 0 0 0 0;
     font-family: 'Source Serif Pro';
     font-style: normal;
@@ -273,8 +279,7 @@ span{
     color: #6D6D6D;
 }
 
-.bottom_tab a, .bottom_tab2 a{
-    margin: 0 0 0 297px;
+.bottom_tab a, .bottom_tab2 a, .bottom_tab3 a, .bottom_tab4 a{
     text-decoration: none;
     font-family: 'Golos';
     font-style: normal;
@@ -282,6 +287,11 @@ span{
     font-size: 22px;
     line-height: 26px;
     color: rgba(126, 126, 126, 0.5);
+}
+
+.bottom_tab a:hover, .bottom_tab2 a:hover, .bottom_tab3 a:hover, .bottom_tab4 a:hover{
+	transition: color 0.6s cubic-bezier(0.12, 0, 0.39, 0);
+	color: #d7d7d8;
 }
 
 /*  Content     */
@@ -427,7 +437,6 @@ span{
 
 .NewsPaper{
     padding-top: 133px;
-    min-height: 2249px;
 		display: flex;
 		flex-direction: column;
 }
