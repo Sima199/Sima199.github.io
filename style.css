@@ -495,6 +495,14 @@ span{
         width: 98%;
         height: 98%;
     }
+		.bottom_list a{
+			margin-right:30px ;
+		}
+		.footerContainer {
+    padding: 30px 150px 39px 150px;
+    display: flex;
+    justify-content: space-between;
+}
     /*.NavCard3, .NavCard4 {
         margin: 0;
     }
