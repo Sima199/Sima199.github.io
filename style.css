@@ -373,8 +373,10 @@ span{
   display: flex;
   justify-content: space-between;
 }
+.bottom_list span{
+ margin: 10px;
+}
 .bottom_list a{
-	margin-right:40px ;
 	text-decoration: none;
   font-family: 'Gilroy';
   font-style: normal;
@@ -478,6 +480,14 @@ span{
 	flex-wrap: wrap;
 	justify-content: space-between;
 }
+
+.BottomContentNews_body{
+	margin: 62px;
+	border-top: 3px solid #7C6AEA;
+	border-radius: 2px;
+	padding-top: 43px;
+}
+
 .CardWhere{
 	margin-bottom: 60px;
 }
@@ -512,7 +522,7 @@ span{
     display: flex;
     justify-content: space-between;
 }
-    /*.NavCard3, .NavCard4 {
+    /* .NavCard3, .NavCard4 {
         margin: 0;
     }
     .NavCard1{
@@ -540,7 +550,7 @@ span{
 
     .bottom_tab a {
         margin: 0px 0 0 311px;
-    }*/
+    } */
 }
 @media (max-width:768px) {
     .mediumNews img, .bottomNews img{
